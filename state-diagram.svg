@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Start state -->
+ <!-- Input Validation state -->
+ <!-- Initialize state -->
+ <!-- Pattern Search state -->
+ <!-- Pattern Match state -->
+ <!-- Error state -->
+ <!-- End state -->
+ <!-- Arrows -->
+ <defs>
+  <marker id="arrowhead" markerHeight="7" markerWidth="10" orient="auto" refX="9" refY="3.5">
+   <polygon fill="black" id="svg_1" points="0 0, 10 3.5, 0 7"/>
+  </marker>
+ </defs>
+ <!-- Start to Input Validation -->
+ <!-- Input Validation to Initialize -->
+ <!-- Input Validation to Error -->
+ <!-- Initialize to Pattern Search -->
+ <!-- Pattern Search to Pattern Match -->
+ <!-- Pattern Search to End -->
+ <!-- Labels -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="63" cy="61" fill="black" id="svg_2" r="10"/>
+  <rect fill="white" height="60" id="svg_3" rx="10" stroke="black" stroke-width="2" width="120" x="113" y="31"/>
+  <text font-family="Arial" font-size="10.67" id="svg_4" text-anchor="middle" x="173" y="66">Input Validation</text>
+  <rect fill="white" height="60" id="svg_5" rx="10" stroke="black" stroke-width="2" width="100" x="313" y="31"/>
+  <text font-family="Arial" font-size="10.67" id="svg_6" text-anchor="middle" x="363" y="66">Initialize</text>
+  <rect fill="white" height="60" id="svg_7" rx="10" stroke="black" stroke-width="2" width="120" x="493" y="31"/>
+  <text font-family="Arial" font-size="10.67" id="svg_8" text-anchor="middle" x="553" y="66">Pattern Search</text>
+  <rect fill="white" height="60" id="svg_9" rx="10" stroke="black" stroke-width="2" width="120" x="493" y="161"/>
+  <text font-family="Arial" font-size="10.67" id="svg_10" text-anchor="middle" x="553" y="196">Pattern Match</text>
+  <rect fill="white" height="60" id="svg_11" rx="10" stroke="black" stroke-width="2" width="120" x="113" y="161"/>
+  <text font-family="Arial" font-size="10.67" id="svg_12" text-anchor="middle" x="173" y="196">Error</text>
+  <circle cx="713" cy="61" fill="white" id="svg_13" r="15" stroke="black" stroke-width="2"/>
+  <circle cx="713" cy="61" fill="black" id="svg_14" r="10"/>
+  <line id="svg_15" marker-end="url(#arrowhead)" stroke="black" stroke-width="2" x1="73" x2="113" y1="61" y2="61"/>
+  <line id="svg_16" marker-end="url(#arrowhead)" stroke="black" stroke-width="2" x1="233" x2="313" y1="61" y2="61"/>
+  <path d="m173,91l0,70" fill="none" id="svg_17" marker-end="url(#arrowhead)" stroke="black" stroke-width="2"/>
+  <line id="svg_18" marker-end="url(#arrowhead)" stroke="black" stroke-width="2" x1="413" x2="493" y1="61" y2="61"/>
+  <path d="m553,91l0,70" fill="none" id="svg_19" marker-end="url(#arrowhead)" stroke="black" stroke-width="2"/>
+  <line id="svg_20" marker-end="url(#arrowhead)" stroke="black" stroke-width="2" x1="613" x2="698" y1="61" y2="61"/>
+  <text font-family="Arial" font-size="12" id="svg_21" text-anchor="middle" x="173" y="141">invalid input</text>
+  <text font-family="Arial" font-size="12" id="svg_22" text-anchor="middle" x="273" y="51">valid input</text>
+  <text font-family="Arial" font-size="12" id="svg_23" text-anchor="middle" x="453" y="51">init array</text>
+  <text font-family="Arial" font-size="12" id="svg_24" text-anchor="middle" x="653" y="51">end</text>
+ </g>
+</svg>
